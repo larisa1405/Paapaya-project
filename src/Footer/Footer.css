@@ -1,0 +1,73 @@
+@import "../App.css";
+
+.footer{
+    margin: 20px 0px;
+    padding: 60px 100px 10px 100px;
+    background-color: #f4f4f4;
+}
+
+.container-footer {
+    padding-top: 10px;
+    display: flex;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-top: 5px solid #dd2121;
+    margin-top: 50px;
+    color: rgb(83, 80, 80);
+
+    div:first-child{
+        max-width: 27%;
+        padding-right: 20px;
+    }
+
+    div{
+        padding-right: 200px;
+    }
+
+    a,p{
+        font-size: 14px;
+        margin: 10px 0px
+    }
+}
+
+.p1 {
+    font-weight: 800;
+}
+
+.link-footer {
+    color: rgb(228, 34, 34);
+}
+
+.link-footer:hover {
+    color: rgb(83, 80, 80);
+}
+
+.menu-footer {
+    display: grid;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: rgb(104, 101, 101)
+}
+
+.menu-link:hover {
+    color: rgb(228, 34, 34);
+}
+
+.social {
+    display: grid;
+    color: rgb(104, 101, 101);
+    text-decoration: none;
+    padding: 5px;
+}
+
+.social:hover {
+    color: rgb(228, 34, 34);
+}
+
+.flex-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

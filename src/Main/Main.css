@@ -1,0 +1,51 @@
+@import "../App.css";
+
+.slider{
+    background-size: cover;
+    background-image: url(https://dammrattan.se/wp-content/uploads/2020/10/header.jpg);
+    background-position: 50%;
+
+    .slider-container{
+        background-color: #00000047;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 150px;
+        padding-right: 570px;
+        color:white;
+        h1{
+            line-height: 1;
+        }
+        *{
+            margin-bottom: 40px;
+        }
+        *:last-child{
+            margin-bottom: 0px;
+        }
+    }
+}
+
+.lateral-margin{
+    margin: 0px 30px;
+}
+
+.auto-margin{
+    margin: auto;
+}
+
+.ratings-list{
+    display:flex
+}
+
+.rating-stars{
+    color: #f0ad4e;
+}
+
+img {
+    object-fit: cover;
+}
+
+.img-position-left{
+    object-position: left;
+}
+

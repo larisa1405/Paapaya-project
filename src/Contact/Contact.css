@@ -1,0 +1,15 @@
+@import "../App.css";
+
+
+.container-element{
+    i{
+        font-size: 50px;
+    }
+}
+
+.contact{
+    *{
+        color: #666;
+        margin: 0px auto;
+    }
+}

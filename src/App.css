@@ -1,0 +1,122 @@
+.App{
+    max-width: 1440px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-image{
+    img{
+        object-fit: cover;
+    }
+}
+
+.container {
+    margin-top: 20px;
+    background-color: white;
+    padding: 40px 150px 60px 150px;
+    display: flex;
+
+    .container-element{
+        display: flex;
+        flex-direction: column;
+
+        div{
+            margin-top: 20px;
+        }
+    }
+}
+
+.container-photo{
+    margin-top: 20px;
+    background-color: white;
+    display: flex;
+
+    .container-element{
+        padding: 80px;
+
+        div{
+            margin-top: 20px;
+        }
+    }
+}
+
+.center{
+    text-align: center;
+}
+
+.link-button{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    margin-right: 5px;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(228, 34, 34);
+    border-radius: 20px;
+    padding: 7px 30px;
+    font-weight: bold;
+}
+
+.link-button:hover{
+    color: rgb(22 29 148);
+    transition: 0.4s;
+}
+
+.link{
+    color: rgb(228, 34, 34);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link:hover{
+    color: rgb(22 29 148);
+}
+
+h1{
+    font-size: 72px;
+    margin: 0px;
+}
+
+h2{
+    line-height: 1.2em;
+    font-size: 54px;
+    color: rgb(228, 34, 34);
+    margin: 0px;
+}
+
+h3{
+    font-size: 42px;
+    color: rgb(228, 34, 34);
+}
+
+h4{
+    font-size: 24px;
+    margin: 0px;
+    margin-bottom: 8px;
+    color: #161d47;
+}
+
+h5{
+    font-size: 18px;
+    margin: 0px;
+    color: #161d47;
+}
+
+h6{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+p{
+    font-size: 17px;
+    margin: 0px;
+}
+
+.card-content{
+    width: 33.33%;
+    box-shadow: 5px 5px 40px 1px rgba(0, 0, 0, 0.0784313725490196);
+    padding: 40px;
+    border: 2px;
+    text-align: start;
+}
