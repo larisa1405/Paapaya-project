@@ -1,7 +1,7 @@
 @import "../App.css";
 
 
-.container-element{
+.main-container-element{
     i{
         font-size: 50px;
     }
@@ -11,5 +11,9 @@
     *{
         color: #666;
         margin: 0px auto;
+    }
+
+    h4{
+        color: #d6001c;
     }
 }

@@ -1,0 +1,27 @@
+.extra-padding{
+    padding-right: 270px;
+    padding-left: 270px;
+}
+
+.bold{
+    font-weight: bold;
+    color: #666
+}
+
+.line-height{
+    line-height: 2;
+}
+
+.newsitem-header{
+    display: flex;
+    justify-content: space-between;
+
+    p{
+        color: #666;
+        font-size: 15px;
+    }
+    i{
+        font-size: 30px;
+        margin: 0px 5px;
+    }
+}

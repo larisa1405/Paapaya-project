@@ -1,7 +1,7 @@
 .App{
     max-width: 1440px;
     margin: auto;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }
 
 .header-image{
@@ -10,13 +10,13 @@
     }
 }
 
-.container {
+.main-container {
     margin-top: 20px;
     background-color: white;
     padding: 40px 150px 60px 150px;
     display: flex;
 
-    .container-element{
+    .main-container-element{
         display: flex;
         flex-direction: column;
 
@@ -26,12 +26,12 @@
     }
 }
 
-.container-photo{
+.main-container-photo{
     margin-top: 20px;
     background-color: white;
     display: flex;
 
-    .container-element{
+    .main-container-element{
         padding: 80px;
 
         div{
@@ -73,43 +73,43 @@
 }
 
 h1{
-    font-size: 72px;
+    font-size: 72px !important;
     margin: 0px;
 }
 
 h2{
-    line-height: 1.2em;
-    font-size: 54px;
-    color: rgb(228, 34, 34);
+    line-height: 1.2em !important;
+    font-size: 54px !important;
+    color: rgb(228, 34, 34) !important;
     margin: 0px;
 }
 
 h3{
-    font-size: 42px;
-    color: rgb(228, 34, 34);
+    font-size: 42px !important;
+    color: rgb(228, 34, 34) !important;
 }
 
 h4{
-    font-size: 24px;
-    margin: 0px;
+    font-size: 24px !important;
+    margin: 0px !important;
     margin-bottom: 8px;
-    color: #161d47;
+    color: #161d47 !important;
 }
 
 h5{
-    font-size: 18px;
+    font-size: 18px !important;
     margin: 0px;
-    color: #161d47;
+    color: #161d47 !important;
 }
 
 h6{
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 14px !important;
+    font-weight: bold !important;
     margin: 0px;
 }
 
 p{
-    font-size: 17px;
+    font-size: 17px !important;
     margin: 0px;
 }
 

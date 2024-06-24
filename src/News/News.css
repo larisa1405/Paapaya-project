@@ -1,0 +1,26 @@
+.news-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    h2, h3{
+        width: 100%;
+    }
+}
+
+.news-item{
+    margin-top: 50px;
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    text-align: left;
+    box-shadow: 5px 5px 40px 1px rgba(0, 0, 0, 0.0784313725490196);
+
+    .content{
+        padding: 8px 25px 30px 25px;
+
+        *{
+            margin-bottom: 20px;
+        }
+    }
+}

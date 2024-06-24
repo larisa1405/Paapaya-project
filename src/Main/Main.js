@@ -1,28 +1,104 @@
 import './Main.css'
+import { Carousel } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
+
+const backgrounds = [
+    'https://dammrattan.se/wp-content/uploads/2020/10/header.jpg',
+    'https://dammrattan.se/wp-content/uploads/2021/06/iStock-1180172387.jpg',
+    'https://dammrattan.se/wp-content/uploads/2022/02/TB2_4503-lr-scaled.jpg'
+  ];
 
 const Main = () => {
-
-
     return(
         <>
-            <div className='slider'>
-                <div className='slider-container'>
-                    <h1>Städhjälp ger tid över till annat</h1>
-                    <p>
-                    I mer än 20 år har vi som städfirma hjälpt företag och privatpersoner till en fräschare och mer hållbar vardag. Oavsett om det handlar om kontor, lager, industri, villa eller lägenhet så finns vi och våra medarbetare för att ge er tid över till annat. Vad kan vi hjälpa er med?
-                    </p>
-                    <a href='' className='link-button'>
-                        Ren arbetsplats
-                    </a>
-                    <a href='' className='link-button'>
-                        Rent hemma
-                    </a>
-                </div>
+    <Carousel>
+      <Carousel.Item>
+        <div className='slider background1'>
+            <div className='slider-container'>
+                <h1>Städhjälp ger tid över till annat</h1>
+                <p>
+                I mer än 20 år har vi som städfirma hjälpt företag och privatpersoner till en fräschare och mer hållbar vardag. Oavsett om det handlar om kontor, lager, industri, villa eller lägenhet så finns vi och våra medarbetare för att ge er tid över till annat. Vad kan vi hjälpa er med?
+                </p>
+                <a href='' className='link-button'>
+                    Ren arbetsplats
+                </a>
+                <a href='' className='link-button'>
+                    Rent hemma
+                </a>
             </div>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div className='slider background2'>
+            <div className='slider-container'>
+                <h1>Hållbarhetsrapport för 2024!</h1>
+                <p>
+                På Dammråttan har vi bestämt oss för att varje år bli lite bättre på att driva vår verksamhet ur ett hållbarhetsperspektiv. Sedan länge är hållbarhetsarbete en naturlig del av vår vardag och förra året tog vi ett stort kliv mot att också bli bättre på att berätta om de viktiga insatser vi gör, genom att lansera vår första hållbarhetsrapport.
+                </p>
+                <a href='/sustainability' className='link-button'>
+                    Till hållbarhetsrapporten
+                </a>
+            </div>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+      <div className='slider background3'>
+            <div className='slider-container'>
+                <h1>Supersmidig bokning</h1>
+                <p>
+                Vi har lanserat handplockade tjänster via BokaDirekt.se för att göra det enklare än någonsin för dig som kund att boka hemstäd, flyttstäd och fönsterputs. När du bokar via BokaDirekt.se så får du möjlighet till snabb och smidig service med några få klick. Testa redan idag!
+                </p>
+                <a className="link-button" href='/order'>
+                Beställ städtjänster
+                </a>
+            </div>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+      <div className='slider background4'>
+            <div className='slider-container'>
+                <h1>Skräddarsydda lösningar anpassade efter era behov</h1>
+                <p>
+                Vi vet att varje hem och varje verksamhet är unik och därför skräddarsyr och anpassar vi en lösning utifrån just era behov. Efter ett förutsättningslöst samtal kring era behov tar vi fram ett erbjudande utifrån vad vi kommit överens om och skapar en bekymmersfri tillvaro för er. 
+                </p>
+                <a className="link-button" href='/order'>
+                Beställ städtjänster
+                </a>
+            </div>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+      <div className='slider background5'>
+            <div className='slider-container'>
+                <h1>Vi söker fler kollegor!</h1>
+                <p>
+                Vill du jobba i en snabbväxande bransch där vi förenklar och förbättrar människors vardag och skapar rena och fräscha arbetsplatser? Då kan Dammråttan vara arbetsplatsen för dig! Vi erbjuder schyssta arbetsvillkor, är auktoriserade och har kollektivavtal.
+                </p>
+                <a className="link-button" href='/work'>
+                Läs mer
+                </a>
+            </div>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+      <div className='slider background6'>
+            <div className='slider-container'>
+                <h1>Ett brett tjänsteutbud </h1>
+                <p>
+                Vi erbjuder inte bara städ för arbetsplatser och privata hem utan även flyttstäd, byggstäd, trappstäd, fönsterputs med mera. Dessutom kan vi erbjuda vaktmästartjänster, fasadtvätt och takbehandling, terrass och altantvätt samt enklare trädgårdstjänster. Hur kan vi hjälpa er få tid över till annat?
+                </p>
+                <a className="link-button" href='/cleaning'>
+                Se våra tjänster
+                </a>
+            </div>
+        </div>
+      </Carousel.Item>
+    </Carousel>
+        
 
-            <div className='container'>
-                <div className='container-element auto-margin'>
+            <div className='main-container'>
+                <div className='main-container-element auto-margin'>
                     <h2>
                         Skräddarsydda städtjänster
                     </h2>
@@ -52,13 +128,13 @@ const Main = () => {
                         </a>
                     </div>
                 </div>
-                <div className='container-element'>
+                <div className='main-container-element'>
                 <img width="510" height="488" src="https://dammrattan.se/wp-content/uploads/2021/03/framsida.png"/>
                 </div>
             </div>
 
-            <div className='container center'>
-                <div className='container-element lateral-margin'>
+            <div className='main-container center'>
+                <div className='main-container-element lateral-margin'>
                     <h4>
                         Nöjd-kund-garanti
                     </h4>
@@ -66,7 +142,7 @@ const Main = () => {
                         Vi strävar alltid efter att du som kund skall vara nöjd med vårt arbete – om du inte skulle vara det åtgärdar vi problemet så vår leverans stämmer med det vi kommit överens om - det är vår nöjd-kund-garanti.
                     </p>
                 </div>
-                <div className='container-element lateral-margin'>
+                <div className='main-container-element lateral-margin'>
                     <h4>
                         Hög kvalitet
                     </h4>
@@ -74,7 +150,7 @@ const Main = () => {
                         Vi städar på era villkor; Vill ni ha hjälp med att plocka ur diskmaskinen hemma eller att säkerställa att fruktfatet på kontoret är fräscht och frukosten är på plats så hjälper vi er med de önskemål ni har.
                     </p>
                 </div>
-                <div className='container-element lateral-margin'>
+                <div className='main-container-element lateral-margin'>
                     <h4>
                         Sekretess
                     </h4>
@@ -84,8 +160,8 @@ const Main = () => {
                 </div>
             </div>
 
-            <div className='container-photo'>
-                <div className='container-element'>
+            <div className='main-container-photo'>
+                <div className='main-container-element'>
                     <div>
                         <h2>
                             Städhjälp till fast månadskostnad via abonnemang
@@ -107,7 +183,7 @@ const Main = () => {
                 <img width="720" height="817" src='https://dammrattan.se/wp-content/uploads/2021/06/iStock-1180172387.jpg'></img>
             </div>
             
-            <div className='container center'>
+            <div className='main-container center'>
                 <div className='auto-margin'>
                     <h3>Vår kunders omdömen</h3>
                     <div className='ratings-list'>
@@ -195,9 +271,9 @@ const Main = () => {
                 </div>
             </div>
 
-            <div className='container-photo'>
+            <div className='main-container-photo'>
                 <img className='img-position-left' width="720" height="615" src='https://dammrattan.se/wp-content/uploads/2022/02/TB2_4503-lr-scaled.jpg)'></img>
-                <div className='container-element'>
+                <div className='main-container-element'>
                     <h2>
                     Vi är Dammråttan 
                     </h2>
@@ -218,8 +294,8 @@ const Main = () => {
                 </div>
             </div>
 
-            <div class='container'>
-                <div className="container-element card-content auto-margin">
+            <div class='main-container'>
+                <div className="main-container-element card-content auto-margin">
                     <h5>
                         Vi lanserar hållbarhetsrapporten för 2024!
                     </h5>
@@ -230,7 +306,7 @@ const Main = () => {
                     Läs mer {'>'}  
                     </a>
                 </div>
-                <div className="container-element card-content auto-margin">
+                <div className="main-container-element card-content auto-margin">
                     <h5>
                     Dammråttan förvärvar Ren känsla och stärker sin närvaro i Borås med omnejd
                     </h5>

@@ -12,7 +12,7 @@ const Footer = () => {
                     <a className="link-button" href="/">Beställ städtjänster</a>
                     </div>
                 </div>
-                <div className="container-footer">
+                <div className="main-container-footer">
                     <div>
                         <p>
                         Idag finns vi på flera orter som Borås, Alingsås, Ulricehamn, Vårgårda, Herrljunga, Bollebygd  Kinna, Skene, Svenljunga, Tranemo, Falköping, Skövde, Skara och Vara med omnejd.

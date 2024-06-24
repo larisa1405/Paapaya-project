@@ -1,0 +1,139 @@
+.cleaning-header{
+    background-image: url(https://dammrattan.se/wp-content/uploads/2021/03/iStock-1153595542-3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    h1{
+        line-height: 1;
+        margin-right: 20px;
+    }
+    
+    h1, h3, p{
+        margin-bottom: 30px !important;
+        color: white !important;
+    }
+
+    h4{
+        color: white !important;
+    }
+
+    svg{
+        margin-right: 20px;
+    }
+}
+
+.cleaning-main-container{
+    display: flex;
+    flex-direction: row;
+    background-color: #00000061;
+    margin: 0px;
+    padding: 100px 100px 120px 100px;
+    div{
+        width: 50%;
+    }
+    
+    div:last-child{
+        padding-left: 100px;
+        padding-top: 100px 
+    }
+}
+
+.cleaning-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    a{
+        text-decoration: none;
+    }
+
+    h2, p{
+        width: 100%;
+    }
+
+    p{
+        margin: 10px 0px;
+    }
+}
+
+.cleaning-item{
+    background-image: url(https://dammrattan.se/wp-content/uploads/2022/01/hemstad-768x512.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: 307px;
+    width: 360px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 1px 40px 0px rgba(0, 0, 0, 0.0784313725490196);
+
+    .item-overlay{
+        background-color: white;
+        border-radius: 0px 0px 10px 10px;
+        margin-top: 76%;
+        padding: 4px 20px;
+        overflow: hidden;
+
+        .hover{
+            display: none;
+        }
+    }
+}
+
+.cleaning-item:hover{
+    .item-overlay{
+        margin-top: 57%;
+        transition: 0.2s;
+    }
+    .hover{
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+.offer-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    div{
+        img{
+            border-radius: 10px;
+            position: relative;
+            bottom: 75px;
+        }
+        width: 25%;
+        margin-top: 75px;
+        padding: 50px 30px 30px 30px;
+
+        border-style: solid;
+        border-width: 4px;
+        border-color: #0000001A;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0);
+    }
+}
+
+.grey{
+    background-color:#F3E7E8;
+}
+
+.image1{
+    height: 650px;
+    img{  
+        width: 720px;
+        height: 650px;
+        object-fit: cover;
+    }
+}
+
+.image2{
+    height: 530px;
+    img{  
+        width: 720px;
+        height: 530px;
+        object-fit: cover;
+    }
+}

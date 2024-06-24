@@ -8,8 +8,8 @@ const AboutUs = () => {
                 <img width="1440" height="390" src='https://dammrattan.se/wp-content/uploads/2021/03/iStock-1153595542-3.jpg'></img>
             </div>
 
-            <div className='container'>
-                <div className='container-element padding-right'>
+            <div className='main-container'>
+                <div className='main-container-element padding-right'>
                     <h2>Om oss</h2>
                     <div>
                         <p>
@@ -38,15 +38,15 @@ const AboutUs = () => {
                         </p>
                     </div>
                 </div>
-                <div className='container-element'>
+                <div className='main-container-element'>
                     <img width="490" src='https://dammrattan.se/wp-content/uploads/2021/03/OM-OSS-BILD-683x1024.jpg'></img>
                 </div>
             </div>
-            <div className='container'>
+            <div className='main-container'>
             <iframe width="1120" height="630" src="https://www.youtube.com/embed/aWjY_uX4n2I?si=KGf10SX1yrikofHD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
-            <div className='container'>
-                <div className='container-element'>
+            <div className='main-container'>
+                <div className='main-container-element'>
                     <div>
                         <h3>
                             Mer om oss
@@ -89,7 +89,7 @@ const AboutUs = () => {
                         </p>
                     </div>
                 </div>
-                <div className='container-element'>
+                <div className='main-container-element'>
                     <div>
                         <h4>Garanti</h4>
                     </div>
@@ -125,9 +125,9 @@ const AboutUs = () => {
                     </div>
                 </div>
             </div>
-            <div className='container-photo'>
+            <div className='main-container-photo'>
                 <img width="722" height="480" src='https://dammrattan.se/wp-content/uploads/2020/10/header-1024x682.jpg'></img>
-                <div className='container-element'>
+                <div className='main-container-element'>
                     <h3>Kundservice</h3>
                     <div>
                         <p>

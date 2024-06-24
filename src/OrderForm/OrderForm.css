@@ -1,0 +1,67 @@
+@import "../App.css";
+
+.form-main-container{
+    margin-top: 20px;
+    background-color: white;
+    display: flex;
+
+    .main-container-element{
+        width: 50%;
+        padding: 80px;
+
+        div{
+            margin-top: 20px;
+        }
+    }
+}
+
+.form{
+    background-color: #f2e6e7;
+
+    h5{
+        margin-bottom: 10px;
+    }
+
+    form{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        textarea, button{
+            width: 100%;
+        }
+
+        div{
+            label{
+                width: 100%;
+            }
+            width: 100%;
+            display: flex;
+        }
+        
+        .checkbox{
+            margin-bottom: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            h5{
+                width: 100%;
+            }
+            div{
+                width: 33%;
+            }
+        }
+    }
+}
+
+input[type=text], input[type=email], textarea{
+    border: 0px;
+    box-shadow: 3px 3px #cccccc;
+    width: 80%;
+    padding: 8px 16px;
+    height: 30px;
+}
+
+input[type=text]:focus, input[type=email]:focus, textarea:focus{
+    outline: none;
+    box-shadow: 0px 0px;
+}

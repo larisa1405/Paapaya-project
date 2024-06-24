@@ -6,6 +6,7 @@
     background-position: 50%;
 
     .slider-container{
+        height: 690px;
         background-color: #00000047;
         display: flex;
         flex-direction: column;
@@ -23,6 +24,25 @@
             margin-bottom: 0px;
         }
     }
+}
+
+.background1{
+    background-image: url(https://dammrattan.se/wp-content/uploads/2020/10/header.jpg);
+}
+.background2{
+    background-image: url(https://dammrattan.se/wp-content/uploads/2024/06/Hallbarhetsrapport.-Till-webb.-.png);
+}
+.background3{
+    background-image: url(https://dammrattan.se/wp-content/uploads/2022/05/BokaDirekt.jpg);
+}
+.background4{
+    background-image: url(https://dammrattan.se/wp-content/uploads/2022/05/Skraddarsy_hemstad.jpg);
+}
+.background5{
+    background-image: url(https://dammrattan.se/wp-content/uploads/2022/05/Rekrytering_1.jpg);
+}
+.background6{
+    background-image: url(https://dammrattan.se/wp-content/uploads/2022/05/Altantvatt_utokadetjanster.jpg);
 }
 
 .lateral-margin{
